@@ -1,9 +1,31 @@
 /* NAVBAR
 -------------------------------------------------- */
 
+
+
+
 .navbar {
   margin-bottom: 0;
 }
+
+.navbar-brand {
+  color: red;
+}
+
+#nav{
+  background-color: #444;
+}
+
+#navbartext {
+  color: whitesmoke;
+}
+
+#text_color li a {
+  color: whitesmoke;
+}
+
+
+
 
 /* CUSTOMIZED CAROUSEL
 -------------------------------------------------- */
@@ -21,7 +43,7 @@
 /* Declare heights because of positioning of img element */
 .carousel .item {
   height: 240px;
-  background-color: #777;
+  background-color: orange;
 }
 .carousel-inner > .item > img {
   position: absolute;
@@ -74,6 +96,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 160px;
+  padding-bottom: 10px;
 }
 
 .footer,
@@ -87,6 +110,7 @@ footer {
   color: white;
   text-shadow: 1px 1px 1px black;
   padding: 40px 0;
+  padding-top: 15px;
 }
 
 /* RESPONSIVE CSS

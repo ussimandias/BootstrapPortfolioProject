@@ -24,8 +24,16 @@
   color: whitesmoke;
 }
 
+#first_elem h3{
+  text-align: center;
+}
 
-
+.cell{
+            background-color:#efefff;
+            /*border: 2px solid #9d9df7;*/
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
 
 /* CUSTOMIZED CAROUSEL
 -------------------------------------------------- */
